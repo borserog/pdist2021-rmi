@@ -19,6 +19,6 @@ public class AppBanco {
         // liga (bind) o serviço ao RMI Registry
         registry.rebind("BancoService", bancoService);
 
-        System.out.println("Service de banco registrado ....");
+        System.out.println("[GABRIEL BORSERO ESTRELA BERNARDO] Service de banco registrado ....");
     }
 }
